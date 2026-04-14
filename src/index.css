@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .drag-overlay {
+    @apply absolute z-50 bg-white/90 backdrop-blur-sm border-2 border-dashed border-gray-300 rounded-lg shadow-2xl p-4;
+    transform: rotate(5deg);
+  }
+  
+  .drag-placeholder {
+    @apply bg-gradient-to-r from-blue-500/20 to-purple-500/20 border-2 border-dashed border-blue-300 rounded-lg animate-pulse min-h-24;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#root {
+  min-height: 100vh;
+}
