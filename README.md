@@ -1,16 +1,104 @@
-# React + Vite
+# 🚀 Custom Page Builder (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **drag-and-drop page builder** built using React.
+Create beautiful pages by adding and customizing blocks like **Header, Text, Image, and Markdown** — with live preview and export functionality.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+* 🧩 Drag & Drop Blocks (React DnD)
+* ✏️ Edit Content (Text, Header, Markdown, Image)
+* 🎨 Custom Styling (color, size, alignment)
+* 👀 Live Preview Mode
+* 📄 Duplicate & Delete Blocks
+* 💾 Auto Save (LocalStorage)
+* 📤 Export to HTML
+* 🖼️ Image Upload + URL Support
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* Tailwind CSS
+* React DnD
+* JavaScript (ES6+)
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repo
+
+```bash
+git clone https://github.com/your-username/custom-page-builder.git
+cd custom-page-builder
+```
+
+### 2️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Run the app
+
+```bash
+npm start
+```
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+ ├── components/
+ │    ├── Sidebar.jsx
+ │    ├── Canvas.jsx
+ │    ├── BlockRenderer.jsx
+ │    ├── BlockControls.jsx
+ │    └── DragLayer.jsx
+ │
+ ├── blocks/
+ │    ├── HeaderBlock.jsx
+ │    ├── TextBlock.jsx
+ │    ├── ImageBlock.jsx
+ │    └── MarkdownBlock.jsx
+ │
+ ├── App.jsx
+ ├── index.css
+```
+
+---
+
+## 🎯 How It Works
+
+1. Drag blocks from the sidebar
+2. Drop them into the canvas
+3. Edit content and styling
+4. Preview your page
+5. Export as HTML
+
+---
+
+## 💡 Future Improvements
+
+* Undo / Redo
+* Save Templates
+* Drag Reordering Animation
+* Backend Integration (Save to DB)
+
+---
+
+## 🙌 Author
+
+**Sanjana Yadav**
+
+---
+
+## ⭐ Show your support
+
+If you like this project, give it a ⭐ on GitHub!
+
